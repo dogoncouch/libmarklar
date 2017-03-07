@@ -1,2 +1,3 @@
 # marklar
-Library function: Returns the number of marklar in your marklar, and the average marklar size.
+
+Library function: Returns the number of marklar in your marklar, and the average marklar size. Documentation coming soon.
