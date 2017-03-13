@@ -69,8 +69,8 @@ def type(marklar):
     try:
         marklar = marklar + ''
         if marklar.isalpha(): return True
-        else if marklar.isnumeric(): return True
-        else if marklar.isspace(): return True
+        elif marklar.isnumeric(): return True
+        elif marklar.isspace(): return True
         else: return False
     except TypeError: pass
 
