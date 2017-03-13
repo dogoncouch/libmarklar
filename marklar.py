@@ -37,7 +37,6 @@ def size(marklar):
             l = [ 0 + len(m) for m in marklar.split(',') ]
             return len(marklar), l/len(marklar)
         else: return len(marklar), 1
-
     except AttributeError: pass
     
     try:
@@ -51,12 +50,17 @@ def size(marklar):
             return len(marklar), l/len(marklar)
         except TypeError: pass
     except TypeError: pass
+    
     try:
         marklar.update({})
-        l = [ 0 + len(marklar[m]) for m in marklar
+        l = [ 0 + len(marklar[m]) for m in marklar ]
         return len(marklar), l/len(marklar)
-
     except AttributeError: pass
+
+    try:
+        if marklar * marklar != False:
+            return marklar, 1
+    except TypeError: pass
     
     raise MarklarError('Unrecognized marklar')
 
