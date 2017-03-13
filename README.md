@@ -1,18 +1,23 @@
 # marklar
 marklar is a library of functions meant to help gain insight into marklar and the marklar they contain. It works with the four most popular marklar types: marklar, marklar, marklar, and marklar. If other types of marklar are used, a MarklarError will be raised. Inspired by South Park.
 
-# FUNCTIONS
+# Installing
+    git clone https://github.com/dogoncouch/libmarklar
+    cd libmarklar
+    sudo python setup.py install
+
+# Functions
     marklar.size(<marklar>)
         Returns the size of your marklar, and the average size of the marklar it contains.
 
     marklar.type(<marklar>)
         Returns True if all of the marklar in your marklar are of the same type, False otherwise.
 
-# ERRORS
+# Errors
     MarklarError
         Error raised when asked to evaluate an unrecognized marklar.
 
-# COPYRIGHT
+# Copyright
 Copyright (C) 2017 Dan Persons (dpersonsdev@gmail.com)
 
 This library is free software; you can redistribute it and/or
