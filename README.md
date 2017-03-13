@@ -6,7 +6,7 @@ marklar is a library of functions meant to help gain insight into marklar and th
         Returns the size of your marklar, and the average size of the marklar it contains.
 
     marklar.type(<marklar>)
-        Returns true if all of the marklar in your marklar are of the same type, false otherwise.
+        Returns True if all of the marklar in your marklar are of the same type, False otherwise.
 
 # ERRORS
     MarklarError
