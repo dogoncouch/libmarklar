@@ -19,7 +19,7 @@
 class MarklarError(Exception):
     pass
 
-__version__ = '0.1'
+__version__ = '0.2'
 __author__ = 'Dan Persons <dpersonsdev@gmail.com>'
 __license__ = 'GNU LGPLv2+'
 __github__ = 'https://github.com/dogoncouch/libmarklar'
