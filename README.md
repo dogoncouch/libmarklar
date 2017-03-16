@@ -2,6 +2,8 @@
 marklar is a library of functions for Python 3 that is meant to help gain insight into marklar and the marklar they contain. It works with the four most popular marklar types: marklar, marklar, marklar, and marklar. If other types of marklar are used, a MarklarError will be raised. Inspired by South Park.
 
 # Installing
+Requirements: git, python3-setuptools
+
     git clone https://github.com/dogoncouch/libmarklar.git
     cd libmarklar
     sudo python3 setup.py install
