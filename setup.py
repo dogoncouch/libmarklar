@@ -21,7 +21,7 @@ from os.path import join
 from sys import prefix
 from marklar import __version__
 
-ourdata = [(join(prefix, 'share/man/man1'), ['doc/marklar.3']),
+ourdata = [(join(prefix, 'share/man/man3'), ['doc/marklar.3']),
         (join(prefix, 'share/doc/marklar'), ['README.md', 'LICENSE'])]
 
 setup(name = 'marklar', version = str(__version__),
