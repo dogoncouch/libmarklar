@@ -1,5 +1,5 @@
 # marklar
-marklar is a library of functions to analyze marklar and the marklar they contain in many different ways. Inspired by South Park. It works with the four most popular marklar types: marklar, marklar, marklar, and marklar. If other types of marklar are used, a MarklarError will be raised.
+marklar is a Python module for analyzing marklar and the marklar they contain in many different ways. Inspired by South Park. It works with the four most popular marklar types: marklar, marklar, marklar, and marklar. If other types of marklar are used, a MarklarError will be raised.
 
 # Installing for Python2
 Requirements: git, python-setuptools
