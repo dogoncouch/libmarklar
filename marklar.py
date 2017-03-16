@@ -19,7 +19,12 @@
 class MarklarError(Exception):
     pass
 
-# To Do: Add 'marklar complexity' (depth)
+__version__ = '0.1'
+__author__ = 'Dan Persons <dpersonsdev@gmail.com>'
+__license__ = 'GNU LGPLv2+'
+__github__ = 'https://github.com/dogoncouch/libmarklar'
+
+# To Do: Add 'marklar complexity' (depth: min, avg, max)
 
 def size(marklar):
     """Returns the number of marklar in your marklar, and the average marklar size"""
