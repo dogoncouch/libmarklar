@@ -9,6 +9,8 @@ Requirements: git, python3-setuptools
     sudo python3 setup.py install
 
 # Functions
+    import marklar
+    
     marklar.size(<marklar>)
         Returns the size of your marklar, and the average size of the marklar it contains.
 
