@@ -125,3 +125,30 @@ def type(marklar):
     except TypeError: pass
 
     raise MarklarError('Unrecognized marklar')
+
+def children(marklar):
+    try:
+        return marklar[1:]
+    except TypeError:
+        return []
+
+def isleaf(marklar):
+    return len(children(marklar)) == 0
+
+def leaves(marklar):
+    """Returns the total number of marklar in your marklar recursively"""
+    if isinstance(marklar, list):
+        if isleaf(marklar):
+            return 1
+        else:
+            return sum(map(leaves, children(marklar)))
+    elif isinstance(marklar, dict):
+        if isleaf(marklar[m]):
+            return 1
+        else:
+            return sum(map(leaves, children(marklar[m])))
+    elif isinstance(marklar, int) or isinstance(marklar, float) or \
+            isinstance(marklar, str):
+        return 1
+    else:
+        raise MarklarError('Unrecognized marklar')
